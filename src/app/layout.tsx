@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     description: "DX化、システム開発、HP・LP・ECサイト制作に対応するポートフォリオです。",
   },
   robots: { index: true, follow: true },
+  verification: {
+    google: "x1Igh-McT6RIaMT9PVrqCXmHcpKyIX3cHqjFwbOzRqo",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
