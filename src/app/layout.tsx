@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? process.env.URL;
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? process.env.URL ?? "https://ogawa-engineer.netlify.app";
 
 export const metadata: Metadata = {
   title: "小川 大智 | フルスタックエンジニア",
